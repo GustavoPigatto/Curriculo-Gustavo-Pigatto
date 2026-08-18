@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Currículo e portfólio de Gustavo Pigatto, estudante de Ciência da Computação com foco em BI, dados e automação.">
+  <title>Gustavo Pigatto | Currículo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Ir para o conteúdo principal</a>
+
+  <header class="cabecalho" id="inicio">
+    <nav class="navegacao container" aria-label="Navegação principal">
+      <a class="logo" href="#inicio" aria-label="Página inicial de Gustavo Pigatto">GP<span>.</span></a>
+      <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu-principal">☰</button>
+      <ul class="menu" id="menu-principal">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#experiencia">Experiência</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+
+    <div class="hero container">
+      <div class="hero-conteudo">
+        <p class="eyebrow">Currículo pessoal</p>
+        <h1>Gustavo<br><span>Pigatto</span></h1>
+        <p class="hero-texto">Estudante de Ciência da Computação na UNOESC e aprendiz no Sicoob São Miguel. Atualmente trabalho com Excel, Power BI e organização de dados na área de Produtos e Serviços.</p>
+        <div class="hero-acoes">
+          <a class="botao botao-principal" href="#experiencia">Ver experiência</a>
+          <button class="botao botao-secundario" id="btn-boas-vindas" type="button">Boas-vindas</button>
+        </div>
+        <p class="saudacao" id="saudacao" aria-live="polite"></p>
+      </div>
+
+      <figure class="perfil">
+        <div class="perfil-moldura">
+          <img src="media/eu.png" alt="Foto de Gustavo Pigatto">
+        </div>
+        <figcaption>São Miguel do Oeste, SC</figcaption>
+      </figure>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="secao sobre container" id="sobre" aria-labelledby="titulo-sobre">
+      <div class="secao-titulo">
+        <p class="numero">01</p>
+        <h2 id="titulo-sobre">Sobre mim</h2>
+      </div>
+      <div class="sobre-grid">
+        <article class="sobre-texto">
+          <p>Tenho 21 anos, curso <strong>Ciência da Computação na UNOESC</strong> e trabalho no Sicoob São Miguel, na área de Produtos e Serviços. No trabalho, uso principalmente Excel, Power Query e Power BI para organizar bases e montar relatórios.</p>
+          <p>Gosto bastante da área de dados e de automatizar tarefas que tomariam muito tempo se fossem feitas manualmente. Meu objetivo é continuar aprendendo e, no futuro, trabalhar diretamente com BI e análise de dados.</p>
+        </article>
+        <article class="destaque-card" aria-label="Objetivo profissional">
+          <p class="card-label">Objetivo profissional</p>
+          <h3>BI &amp; Analytics</h3>
+          <p>Trabalhar com análise de dados e criação de soluções úteis para problemas reais.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="secao experiencia" id="experiencia" aria-labelledby="titulo-experiencia">
+      <div class="container">
+        <div class="secao-titulo">
+          <p class="numero">02</p>
+          <h2 id="titulo-experiencia">Experiência e projetos</h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="timeline-meta">
+              <span>Atual</span>
+              <p>Sicoob São Miguel</p>
+            </div>
+            <div class="timeline-conteudo">
+              <h3>Produtos e Serviços</h3>
+              <p>Criação e manutenção de planilhas, relatórios e painéis para acompanhar produtos, resultados e outras demandas internas.</p>
+              <ul class="tags" aria-label="Tecnologias e competências utilizadas">
+                <li>Power BI</li><li>DAX</li><li>Power Query</li><li>Excel</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-meta">
+              <span>Projeto</span>
+              <p>Painel Produtos e Serviços</p>
+            </div>
+            <div class="timeline-conteudo">
+              <h3>Business Intelligence</h3>
+              <p>Projeto em Power BI que reúne metas, resultados e indicadores de diferentes produtos em um único painel, com páginas separadas por assunto.</p>
+              <ul class="tags" aria-label="Competências do projeto">
+                <li>Modelagem de dados</li><li>ETL</li><li>Dashboards</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="timeline-item">
+            <div class="timeline-meta">
+              <span>Acadêmico</span>
+              <p>UNOESC</p>
+            </div>
+            <div class="timeline-conteudo">
+              <h3>XDR e Monitoramento com Sophos</h3>
+              <p>Trabalho da faculdade envolvendo um servidor Ubuntu, monitoramento de eventos e consultas no Live Discover do Sophos.</p>
+              <ul class="tags" aria-label="Competências do projeto acadêmico">
+                <li>Linux</li><li>Segurança</li><li>SQL</li><li>XDR</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="secao container" id="habilidades" aria-labelledby="titulo-habilidades">
+      <div class="secao-titulo">
+        <p class="numero">03</p>
+        <h2 id="titulo-habilidades">Habilidades</h2>
+      </div>
+      <div class="habilidades-grid">
+        <article class="habilidade-card"><span aria-hidden="true">01</span><h3>Power BI</h3><p>Criação de painéis, medidas em DAX, relacionamentos e modelagem de dados.</p></article>
+        <article class="habilidade-card"><span aria-hidden="true">02</span><h3>Excel</h3><p>Fórmulas, tabelas, Power Query, tratamento de bases e noções de VBA.</p></article>
+        <article class="habilidade-card"><span aria-hidden="true">03</span><h3>Programação</h3><p>HTML, CSS, JavaScript, lógica de programação, SQL e Git.</p></article>
+        <article class="habilidade-card"><span aria-hidden="true">04</span><h3>Outros conhecimentos</h3><p>Linux, redes de computadores, bancos de dados e Sophos XDR.</p></article>
+      </div>
+      <button class="link-toggle" id="btn-detalhes" type="button" aria-expanded="false" aria-controls="detalhes-extras">Ver conhecimentos acadêmicos <span aria-hidden="true">＋</span></button>
+      <div class="detalhes-extras" id="detalhes-extras" hidden>
+        <ul>
+          <li>Estruturas de dados e grafos</li>
+          <li>Bancos de dados relacionais</li>
+          <li>Redes e sistemas operacionais</li>
+          <li>Autômatos e teoria da computação</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="secao contato" id="contato" aria-labelledby="titulo-contato">
+      <div class="container contato-grid">
+        <div>
+          <div class="secao-titulo">
+            <p class="numero">04</p>
+            <h2 id="titulo-contato">Vamos conversar?</h2>
+          </div>
+          <p>Meus dados para contato estão logo abaixo. O formulário ao lado é uma pequena interação feita com JavaScript.</p>
+          <ul class="links-contato">
+            <li><a href="mailto:gugapigato@gmail.com">gugapigato@gmail.com</a></li>
+            <li><a href="tel:+5549999772652">(49) 99977-2652</a></li>
+          </ul>
+        </div>
+        <form class="formulario" id="form-contato">
+          <label for="nome">Como posso te chamar?</label>
+          <div class="campo-acao">
+            <input id="nome" name="nome" type="text" placeholder="Seu nome" autocomplete="name" required>
+            <button class="botao botao-principal" type="submit">Confirmar</button>
+          </div>
+          <p id="mensagem-form" class="mensagem-form" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <div class="container">
+      <p>Desenvolvido por Gustavo Pigatto.</p>
+      <p><span id="ano-atual"></span> • São Miguel do Oeste, SC</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
